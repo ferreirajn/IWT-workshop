@@ -1,0 +1,31 @@
+/* fazer primeiro */
+.hide-story {
+  display: none;
+}
+/* ******************* */
+
+section {
+  padding-top: 20px;
+}
+
+.corpo-pagina {
+  width: 50%;
+  margin: auto;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#formulario #create-story {
+  background-color: #ffd0ae;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#story-container {
+  padding-top: 25px;
+}

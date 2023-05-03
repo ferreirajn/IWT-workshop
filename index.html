@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Story</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="corpo-pagina">
+      <div class="story-form">
+        <h1>Random Story</h1>
+        <p>
+          Preencha as lacunas para criar uma história única com as suas
+          sugestões!
+        </p>
+        <form id="formulario">
+          <label>
+            Digite aqui um substantivo:
+            <input
+              type="text"
+              name="substantivo"
+              id="substantivo"
+              placeholder="Um substantivo"
+          /></label>
+          <label>
+            Digite aqui um verbo:
+            <input type="text" id="verbo" name="verbo" placeholder="Um verbo"
+          /></label>
+          <label>
+            Digite aqui um adjetivo:
+            <input
+              type="text"
+              id="adjetivo"
+              name="adjetivo"
+              placeholder="Um adjetivo"
+          /></label>
+          <label>
+          <input type="button" id="create-story" value="Criar minha história" />
+        </form>
+      </div>
+      <div id="story-container" class="hide-story">
+        <article>
+          <h3>Sua história</h3>
+          <p>
+            Em um reino tão, tão distante, havia um(a)
+            <span class="substantivo-span">substantivo</span>, ele(a) era muito, muito
+            <span id="adjetivo-span">adjetivo</span> mesmo! Até que um dia ele(a)
+            resolveu <span id="verbo-span">verbo</span> e nunca mais voltou e depois disso, uma grande tragédia aconteceu e matou o(a)
+            <span class="substantivo-span">substantivo</span>. Tadinho(a)!
+          </p>
+        </article>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
